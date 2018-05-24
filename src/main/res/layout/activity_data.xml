@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:layout_margin="@dimen/activity_margin" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/label_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_mode"/>
+
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/miles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/miles" />
+
+            <RadioButton
+                android:id="@+id/kilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/kilometers" />
+
+            <RadioButton
+                android:id="@+id/centimeters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/inches" />
+
+            <RadioButton
+                android:id="@+id/inches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/centimeters" />
+
+            <RadioButton
+                android:id="@+id/liters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/liters" />
+
+            <RadioButton
+                android:id="@+id/gallons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gallons"
+                android:visibility="visible" />
+
+            <RadioButton
+            android:id="@+id/pounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pounds" />
+
+            <RadioButton
+                android:id="@+id/kilograms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kilograms"
+                android:visibility="visible" />
+
+
+            <RadioButton
+                android:id="@+id/celsius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/celsius" />
+
+            <RadioButton
+                android:id="@+id/fahrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fahrenheit"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/kelvinC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kelvinC"
+                android:visibility="visible" />
+
+            <RadioButton
+                android:id="@+id/kelvinF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kelvinF"
+                android:visibility="visible" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/label_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/label_amount" />
+
+        <EditText
+            android:id="@+id/data_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amountDecimal"
+            android:inputType="numberDecimal"
+            android:hint="@string/initial_data_value"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:onClick="goBack"
+            android:text="@string/done" />
+
+
+
+    </TableLayout>
+
+
+</ScrollView>

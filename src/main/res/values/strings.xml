@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="label_amount">Initial Amount</string>
+    <string name="amount">0</string>
+    <string name="label_mode">Conversion type</string>
+    <string name="mode">Celsius</string>
+
+
+
+    <string name="modify_data">Modify Data</string>
+
+    <string name="celsius">Celsius to Fahrenheit</string>
+    <string name="fahrenheit">Fahrenheit to Celsius</string>
+    <string name="kilometers">Km to Miles</string>
+    <string name="miles">Miles To Km</string>
+
+    <string name="amountDecimal">100000.00</string>
+    <string name="done">Done</string>
+    <string name="total">32</string>
+    <string name="label_total">Total</string>
+    <string name="none">None</string>
+    <string name="initial_data_value">Initial Data Value</string>
+    <string name="kelvinC">Kelvin to Celsius</string>
+    <string name="kelvinF">Kelvin To Fahrenheit</string>
+    <string name="inches">Inches to Centimeters</string>
+    <string name="centimeters">Centimeters to Inches</string>
+    <string name="liters">Liters to Gallons</string>
+    <string name="gallons">Gallons to Liters</string>
+    <string name="pounds">Pounds to Kilograms</string>
+    <string name="kilograms">Kilograms to Pounds</string>
+    <string name="degrees_kelvin">Degrees Kelvin</string>
+</resources>
